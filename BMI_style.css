@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    background-color: #cccccc;
+}
+.page{
+    margin: 0 auto 0 auto;
+    max-width: 1370px;
+    width: 100%;
+    font-family: 'Open Sans';
+}
+.part2{
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: 55.6vw;
+    background-image: url(hantle.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.chooseBMI{
+    width: 30%;
+    min-width: 250px;
+    max-height: 200px;
+    height: 50%;
+    background: linear-gradient(#ff944d, #ff3300);
+    background-color: #ff751a;
+    border: 5px solid #ffb380;
+   position: relative;
+    left: 10%;
+    top: 8vw;
+    float: left;
+    border-radius: 13px;
+    margin-right: 19%;
+    opacity: 0.85;
+    
+}
+.chooseBMI:hover{
+    opacity: 1;
+    background: linear-gradient(#ff944d, red);
+}
+h2{
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 0px;
+    
+}
+p{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.3vw;
+}
+
+#weigh{
+    width: 12vh;
+    margin: 0 39% 0 39%;
+}
+.chooseCalories{
+    width: 30%;
+    min-width: 250px;
+    max-height: 200px;
+    height: 50%;
+    background: linear-gradient(#1aff66, #009933);
+    background-color: #009933;
+    border: 5px solid #ccffdd;
+   position: relative;
+    left: 10%;
+    top: 8vw;
+    border-radius: 13px;
+    float: left;
+    opacity: 0.85;
+}
+.chooseCalories:hover{
+    opacity: 1;
+    background: linear-gradient(#1aff66, #00ff00);
+}
+#basket{
+    width: 12vh;
+    margin: 0 39% 0 39%;
+}
+
+.BMI{
+    
+    width: 30%;
+    min-width: 250px;
+    background: linear-gradient(#ff944d, #ff3300);
+    background-color: #ff751a;
+    border: 5px solid #ffb380;
+    position: relative;
+    left: 15%;
+    top: 6.5vw;
+    border-radius: 13px;
+    padding-bottom: 20px;
+    opacity: 0.85;
+    float: left;
+    margin-right: 10%;
+}
+form{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 1.5vw auto 0 auto;
+    max-width: 250px;
+}
+.inputs{
+    padding: 3%;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.numbers{
+    width: 80px;
+    height: 25px;
+    float: right;
+    
+}
+button{
+    height: 40px;
+    width: 140px;
+    background-color: #00b300;
+    border: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+button:hover{
+    background-color:#00ace6;
+}
+.BMIinfo, .BMRinfo{
+    width: 30%;
+    min-width: 250px;
+    background: linear-gradient(white,  #cccccc);
+    color:  #333333;
+    background-color: #cccccc;
+    border: 5px solid gray;
+   position: relative;
+    left: 15%;
+    top: 6.5vw;
+    border-radius: 13px;
+    padding-bottom: 20px;
+    opacity: 0.85;
+    float: left;
+}
+.BMIinfo > h2, .BMRinfo > h2, .results > h2{
+    color: #333333;
+    max-width: 300px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.BMIinfo > p, .BMRinfo > p, .results > p{
+    color: #333333;
+    max-width: 300px;
+    width: 80%;
+    font-size: 18px;
+    margin: 0 auto 0 auto;
+    text-align: justify;
+}
+.BMIinfo > ul, .BMRinfo > ul  {
+     color: #333333;
+    max-width: 300px;
+    width: 80%;
+    font-size: 18px;
+    margin: 0 auto 0 auto;
+}
+
+.BMR{
+    
+    width: 30%;
+    min-width: 250px;
+    background: linear-gradient(#1aff66, #009933);
+    background-color: #009933;
+    border: 5px solid #ccffdd;
+    position: relative;
+    left: 15%;
+    top: 6.5vw;
+    border-radius: 13px;
+    padding-bottom: 20px;
+    opacity: 0.85;
+    float: left;
+    margin-right: 10%;
+}
+
+.results{
+    width: 30%;
+    min-width: 250px;
+    background: linear-gradient(#00e6e6, #0052cc);
+    color:  white;
+    background-color: #0052cc;
+    border: 5px solid #001f4d;
+   position: relative;
+    top: 6.5vw;
+    border-radius: 13px;
+    padding-bottom: 20px;
+    opacity: 0.85;
+    margin: 0 auto 0 auto;
+    display: none;
+}
+.results > h2, .results > p{
+    color: white;
+}
+
+.welcome{
+    padding-top: 12%;
+    text-shadow: 2px 2px 1px  black;
+    
+   
+}
+.welcome > h2{
+    font-size: 11vh;
+    margin: 0;
+}
+.welcome > p {
+    font-size: 3vh;
+}
+.page1{
+    display: none;
+}
+.BMI, .BMIinfo, .BMR, .BMRinfo{
+    display: none;
+} 
+span{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 30%;
+}

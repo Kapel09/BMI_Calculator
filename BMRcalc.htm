@@ -1,0 +1,22 @@
+<div class = "page3" ng-controller="myCtrl">
+        <div class="BMR">
+            <h2>BMR Calculator</h2>
+            <form ng-submit="bmrCalculate()">
+                <div class="inputs">  <label>Male:</label><input type="radio" name="gender" ng-model="genre" ng-value="true">
+                    <label>Female:</label><input type="radio" name="gender" ng-model="genre" ng-value="false"></div>
+                 <div class="inputs">
+                    <label>Age (years): </label><input ng-model= "years" class="numbers" type="number" min="0" required> </div>
+                <div class="inputs">
+                    <label>Weight (kg): </label><input ng-model= "weight" class="numbers" type="number" min="0" required> </div>
+                <div class="inputs">
+                    <label> Height (cm):  </label><input ng-model= "height" class="numbers" type="number" min="0" required></div>
+                <button type="submit" >Calculate</button>
+            </form>
+        </div>
+        
+         <div class="BMRinfo">
+            <h2>What is BMR?</h2>
+            <p>Your BMR (Basal Metabolic Rate) is an estimate of how many calories you'd burn if you were to do nothing but rest for 24 hours. It represents the minimum amount of energy needed to keep your body functioning, including breathing and keeping your heart beating.</br>
+            Your BMR does not include the calories you burn from normal daily activities or exercise.</p>
+        </div>
+</div>

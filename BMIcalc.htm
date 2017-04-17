@@ -1,0 +1,27 @@
+<div class = "page2" ng-controller="myCtrl">
+        <div class="BMI">
+            <h2>BMI Calculator</h2>
+            <form ng-submit="bmiCalculate()">
+                <div class="inputs">  <label>Male:</label><input type="radio" name="gender" value="male" checked>
+                    <label>Female:</label><input type="radio" name="gender" value="female" required ></div>
+                <div class="inputs">
+                    <label>Weight (kg): </label><input ng-model= "weight" class="numbers" type="number" min="0" required> </div>
+                <div class="inputs">
+                    <label> Height (cm):  </label><input ng-model= "height" class="numbers" type="number" min="0" required></div>
+                <button type="submit">Calculate</button>
+            </form>
+        </div>
+        
+         <div class="BMIinfo">
+            <h2>What is BMI?</h2>
+            <p>BMI (body mass index) is a calculated number representing a person's level of fat or obesity level. According to the Centers for Disease Control and Prevention (CDC), a BMI of 30 or above indicates obesity. BMI levels are broken down by weight range and are as follows:</br></br></p>
+                <ul>
+                    <li>BMI < 18.5 is underweight</li>
+                    <li>BMI 18.5-24.9 is normal weight</li>
+                    <li>BMI 25-29.9 is overweight</li>
+                    <li>BMI 30-39.9 indicates obesity</li>
+                    <li>BMI > 40 indicates morbid obesity</li>
+                </ul>
+        </div> 
+</div>
+  
